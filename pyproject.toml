@@ -1,0 +1,17 @@
+[project]
+name = "assignment4"
+version = "0.1.0"
+description = "AITU Research Event Analytics with Kafka and Spark - Assignment 4"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+run-all = "assignment4.run_all:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[tool.uv]
+dev-dependencies = []
